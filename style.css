@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+.body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter";
+}
+
+@media (min-width: 1024px) {
+    .navbar {
+        padding: 20px 30px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 220px;
+    }
+
+    a {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding: 20px 20px;
+    }
+
+    button {
+        background-color: blue;
+        color: white;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 20px 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 220px;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+nav ul li {
+    display: none;
+    padding: 20px 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* Hero */
+
+.hero {
+    background-color: #0649ce;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+button {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+/* Section 1 */
+
+.section1 {
+    background-color: #f9f9f9;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section-text {
+    margin-bottom: 40px;
+}
+
+.section-btn {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-1 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.form-2 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.form-3 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.form-4 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.form-5 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    padding: 10px 30px;
+}
+
+.form-1:hover {
+    background-color: blue;
+    color: white;
+}
+
+.form-2:hover {
+    background-color: blue;
+    color: white;
+}
+
+.form-3:hover {
+    background-color: blue;
+    color: white;
+}
+
+.form-4:hover {
+    background-color: blue;
+    color: white;
+}
+
+.form-5:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Section 2 */
+.section2 {
+    background-color: #f9f9f9;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-text {
+    margin-bottom: 40px;
+}
+
+.section-btn2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+i {
+    padding-right: 10px;
+}
+
+.check-1 {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.check-2 {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.check-3 {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.check-4 {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.check-5 {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.check-6 {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.check-7 {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.check-1:hover {
+    background-color: blue;
+    color: white;
+}
+
+.check-2:hover {
+    background-color: blue;
+    color: white;
+}
+
+.check-3:hover {
+    background-color: blue;
+    color: white;
+}
+
+.check-4:hover {
+    background-color: blue;
+    color: white;
+}
+
+.check-5:hover {
+    background-color: blue;
+    color: white;
+}
+
+.check-6:hover {
+    background-color: blue;
+    color: white;
+}
+
+.check-7:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #f1f5fa;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.copy {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.icn i {
+    background-color: #0649ce;
+    border-radius: 5px;
+    color: #f1f5fa;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
